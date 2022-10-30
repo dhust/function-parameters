@@ -1,5 +1,5 @@
 # Directions
-Re-arrange the blocks so that the program asks the user to continuously enter numbers, adds them all up, and then stops asking when the total reaches or exceeds 20.
+Create a function that adds two numbers and prints the result. Then call the function and test it using the numbers 3 and 5.
 
 # Code
 <div id="sortableTrash" class="sortable-code"></div> 
@@ -55,13 +55,10 @@ Re-arrange the blocks so that the program asks the user to continuously enter nu
 
 <script type="text/javascript"> 
 (function(){
-  var initial = "total = 0\n" +
-    "while True:\n" +
-    "	number = input(&quot;Enter a number&quot;)\n" +
-    "	number = int(number)\n" +
-    "	total = total + number\n" +
-    "	if number &gt;= 20:\n" +
-    "		break";
+  var initial = "def add(n1, n2):\n" +
+    "	total = n1 + n2\n" +
+    "	print(f&quot;{n1} + {n2} = {total}&quot;)\n" +
+    "add(3,5)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
