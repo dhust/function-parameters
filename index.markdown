@@ -6,7 +6,7 @@ Create a function that adds two numbers and prints the result. Then call the fun
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
 <p id="buttons"> 
-    <input id="feedbackLink" class="button" value="Get Feedback" type="button" /> 
+    <input id="feedbackLink" class="button" value="Check" type="button" /> 
     <input id="newInstanceLink" class="button" value="Reset Problem" type="button" /> 
 </p>
 
